@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=64", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "quadtree_kd_tree_env"
+version = "0.1.0"
+description = "Environment for Geometric Algorithms course at AGH University of Krakow."
+authors = [
+    {name = "Wiktor Onik"},
+    {name = "Jan Martowicz"}
+]
+requires-python = ">=3.8"
+dependencies = [
+    "numpy",
+    "matplotlib",
+    "ipykernel"
+]
+
+[tool.setuptools.packages.find]
+where = ["."]

@@ -1,4 +1,4 @@
-# Quadtree_and_Kd_tree
+# Quadtree_and_Kd_tree 
 
 Our project for Geometric Algorithms course at AGH University of Krakow.
 
